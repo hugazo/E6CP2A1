@@ -1,5 +1,9 @@
-# Escriba un método llamado check5 que devuelva true cuando
-# se le pase un número mayor a 5 y false en caso contrario.
+# Escriba un metodo llamado check5 que devuelva true cuando
+# se le pase un numero mayor a 5 y false en caso contrario.
 
-puts check5(5) # Debería ser false
-puts check5(6) # Debería ser true
+def check5(num)
+  num > 5
+end
+
+puts check5(5) # Deberia ser false
+puts check5(6) # Deberia ser true
