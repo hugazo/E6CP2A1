@@ -11,6 +11,7 @@ products = %w(Producto1 Producto2 Producto3 Producto4)
 html = ''
 products.each do |i|
   html += "<div class='product'>"
+  html += " #{i} "
   html += "</div>\n"
 end
 
