@@ -5,3 +5,9 @@
 
 cadena = 'Hola Mundo!'
 caracter = 'o'
+
+def contiene?(str, char)
+  str.include? char
+end
+
+puts contiene?(cadena, caracter)
