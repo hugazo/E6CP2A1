@@ -3,7 +3,7 @@
 # metodo debe mostrar en pantalla "Hola Mundo".
 
 def saludo(str)
-  puts "#{str} Mundo"
+  puts "#{str} Mundo" if str === "Hola"
 end
 
 saludo('Hola')
