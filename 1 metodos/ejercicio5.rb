@@ -2,7 +2,7 @@
 # e imprima los numeros pares que existen entre esos dos numeros.
 
 def dos_numeros(a, b)
-  (a..b).each { |i| puts i if (i % 2).zero? }
+  (a..b).each { |i| puts i if i.even? }
 end
 
 dos_numeros(2, 16)
